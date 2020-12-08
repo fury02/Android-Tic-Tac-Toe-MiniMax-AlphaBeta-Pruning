@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Olive"
+    tools:context="com.arbuz.tac.MainActivity">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical | center_horizontal"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/tableGame"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/ll_00"
+                android:focusable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:background="@drawable/rectangle_round_some_left"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_01"
+                android:focusable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:background="@drawable/rectangle_round_all"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_02"
+                android:focusable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:background="@drawable/rectangle_round_some_right"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_10"
+                android:focusable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:background="@drawable/rectangle_round_some_left"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_11"
+                android:focusable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:background="@drawable/rectangle_round_all"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_12"
+                android:focusable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:background="@drawable/rectangle_round_some_right"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="MissingClass">
+
+            <LinearLayout
+                android:id="@+id/ll_20"
+                android:focusable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:background="@drawable/rectangle_round_some_left"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_21"
+                android:focusable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:background="@drawable/rectangle_round_all"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_22"
+                android:focusable="true"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:clickable="true"
+                android:background="@drawable/rectangle_round_some_right"
+                android:orientation="horizontal">
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="110dp"
+        android:layout_marginRight="15dp"
+        style="@style/Widget.Design.FloatingActionButton"
+        android:backgroundTint="@color/Olive"
+        app:borderWidth="0dp"
+        tools:visibility="visible"
+        android:id="@+id/floatingActionButtonReset" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
